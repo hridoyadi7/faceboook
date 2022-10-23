@@ -1,0 +1,36 @@
+<html><head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    
+    <title>Happy Diwali</title>
+        <audio type="audio/mpeg" controls="none" id="audio1" src="http://santhosh.comxa.com/dsm/fire.mp3"></audio>
+        
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/diwali.css') }}">
+        <script>
+          if ( window.history.replaceState ) {
+              window.history.replaceState( null, null, window.location.href );
+          }
+          setTimeout(function () {
+             window.location.href = "/login"; //will redirect to your blog page (an ex: blog.html)
+          }, 40000);
+        </script>
+        <script src="{{ url_for('static', filename='js/diwali.js') }}" defer></script>    
+      
+    </script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <h1 class="red-text text-center">Happy Diwali</h1>
+          <center><span>touch on screen</span>  </center>
+        </div> 
+    
+    <footer class="footer footer-inverse" style=" margin-bottom: 0;">
+          <div class="container">
+            <!-- Start of SimpleHitCounter Code -->
+            
+            <!-- End of SimpleHitCounter Code -->        
+          </div>
+    </footer>
+    </body></html>
